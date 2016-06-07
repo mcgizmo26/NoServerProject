@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.team{
+  height: 55vh;
+  width: 100%;
+  display: flex;
+}
+
+.fieldimage img {
+  height: 55vh;
+  width: auto;
+  max-width: 500px;
+}
+
+.rightSideSection{
+  max-height: 55vh;
+  width: 100%;
+  margin-left: 40px;
+  position: relative;
+
+}
+
+.rightSideSection input {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.rightSideSection h3{
+  color: white;
+  font-size: 40px;
+  margin-top: 30px;
+  /*position: absolute;*/
+  text-decoration: underline;
+  left: 20px;
+  display: inline;
+}
+
+.rosterText{
+  margin-top: 20px;
+  font-size: 15px;
+  color: white;
+  width: 25%;
+  cursor: pointer;
+  z-index: 5;
+
+
+}
+.textarea{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 55vh;
+  position: relative;
+}
+.rosterText ul{
+  list-style: none;
+
+
+}
+
+.textarea img{
+  height:205px;
+  width:204px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /*border-radius: 20px;*/
+}
+
+.usl img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 700px;
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+
+}

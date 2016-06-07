@@ -1,0 +1,24 @@
+
+<div class="team">
+  <div class='fieldimage'>
+     <img ng-src="{{picture}}" alt=""/>
+  </div>
+  <div class="rightSideSection">
+    <h3> Roster </h3>
+    <input ng-model= "player" placeholder="Search..."/>
+    <div class="textarea">
+    <div class="rosterText"ng-click='changePicture(player.img)' ng-repeat="player in results | filter: player">
+
+         <ul>
+           <li>Name:   {{player.name}}</li>
+           <li>Number:   {{player.number}}</li>
+           <li>Position:   {{player.position}}</li>
+         </ul>
+    </div>
+     <img src='../../No-Server-images/mls.png' ng-hide='hidden'>
+     <div class="usl">
+       <img src='../../No-Server-images/usl.png' ng-hide='uslhidden'>
+     </div>
+    </div>
+  </div>
+</div>

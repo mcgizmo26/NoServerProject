@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+}
+
+
+.image{
+background-image: url("/No-Server-images/Estadio-Rio-Tinto.jpeg");
+padding: 20px;
+background-size: cover;
+width: 100vw;
+height: 45vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+border-bottom-style: solid;
+border-bottom-color: blue;
+
+/*z-index: -1;*/
+}
+
+.image h2 {
+
+   margin-top: 100px;
+   text-align: center;
+   color: #1E285D;
+   font-size: 80px;
+
+   width: 100%;
+}
+
+.route-text {
+  font-size: 50px;
+  color: #0047AB;
+  width: 90%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.rsllogo img{
+  height: 110px;
+  width: 110px;
+}
+
+.monarchslogo img{
+  height: 110px;
+  width: 110px;;
+}
+
+#test{
+  height: 90px;
+  width: 90px;
+  background: url('../../No-Server-images/Soccerball.png') no-repeat;
+  background-size: contain;
+}
+
+.r{
+  font-size: 110px;
+  color: #AF0039;
+}
