@@ -14,7 +14,7 @@ angular.module('noServerApp', ['ui.router', 'ngAnimate'])
       })
        .state('monarchs', {
          url: '/monarchs',
-       templateUrl:"views/monarchs/monarchs.html",
-       controller: 'monarchsController'
-     });
+         templateUrl:"views/monarchs/monarchs.html",
+         controller: 'monarchsController'
+      });
 })
